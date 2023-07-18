@@ -1,0 +1,49 @@
+.inp-1,
+.inp-2 {
+  display: block;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.next_one {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.chatbot-msg {
+  font-size: 18px;
+  width: 240px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.chatbot-btn-1,
+.chatbot-btn-2 {
+  font-size: 16px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.google-logo {
+  width: 250px;
+  display: block;
+  margin-bottom: 15px;
+  margin-left: 180px;
+}
+
+.search-bar {
+  font-size: 18px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 600px;
+  border: none;
+  border-radius: 300px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px;
+}
