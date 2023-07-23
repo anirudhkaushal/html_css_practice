@@ -1,0 +1,188 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.next_one {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.profile-card {
+  width: 400px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+
+.profile-card-2 {
+  width: 400px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+
+}
+
+.profile-pic {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile-info {
+  width: 240px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 12px;
+}
+
+.p-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.p-desp {
+  font-size: 16px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 6px;
+}
+
+.p-popularity {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+
+.profile-btn {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.follow-btn {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.profile-page {
+  width: 430px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+}
+
+.yt-preview {
+  width: 600px;
+  margin-bottom: 12px;
+}
+
+.yt-thumbnail {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.video-pic {
+  width: 100%;
+}
+
+.yt-video-info {
+  margin-left: 12px;
+  width: 280px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.video-title {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.channel-info {
+  color: rgb(96, 96, 96);
+  margin-bottom: 6px;
+}
+
+.video-info {
+  color: rgb(96, 96, 96);
+}
+
+.fb-profile-card {
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: top;
+ 
+}
+
+.fb-profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: middle;
+  margin-bottom: 10px;
+}
+
+.fb-name {
+  margin-left: 10px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.fb-pic {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.fb-connections {
+  display: inline-block;
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.fb-add-friend-btn {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  font-size: 14px;
+  border: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
