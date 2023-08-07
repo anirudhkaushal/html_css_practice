@@ -10,6 +10,11 @@
   /* display: block; */
 }
 
+.video-title-link {
+  text-decoration: none;
+  color: black;
+}
+
 .video-title {
   font-size: 14px;
   font-weight: 500;
@@ -29,14 +34,72 @@
   grid-template-columns: 50px 1fr;
 }
 
+.channel-picture-tooltip-container {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
 .profile-picture {
   width: 36px;
   border-radius: 25px;
 }
 
+.channel-tooltip {
+  background-color: white;
+  /* width: 180px; */
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+
+  position: absolute;
+  bottom: -60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+}
+
+.channel-picture-tooltip-container:hover .channel-tooltip {
+  opacity: 1;
+}
+
+.profile-picture-tooltip {
+  width: 40px;
+  border-radius: 25px;
+  margin-right: 6px;
+}
+
+.channel-info-tooltip {
+  font-family: Roboto, Arial;
+  white-space: nowrap;
+}
+
+.channel-name-tooltip {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.channel-subs-tooltip {
+  font-size: 12px;
+  color: gray;
+}
+
 .thumbnail-row {
   margin-bottom: 8px;
   position: relative;
+}
+
+.video-author-link {
+  text-decoration: none;
 }
 
 .video-author,
