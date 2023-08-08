@@ -32,3 +32,27 @@
 .sidebar-link div {
     font-size: 10px;
 }
+
+@media (min-width: 1200px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .sidebar-link {
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .sidebar-link img {
+        margin-bottom: 0;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .sidebar-link div {
+        font-size: 12px;
+    }
+}

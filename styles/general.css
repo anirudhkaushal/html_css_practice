@@ -11,3 +11,9 @@ body {
   padding-right: 24px;
   background-color: rgb(247, 247, 247);
 }
+
+@media (min-width: 1200px) {
+  body {
+    padding-left: 224px;
+  }
+}
